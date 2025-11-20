@@ -1,1 +1,6 @@
-Your questions here.
+1. How does the JVM actually implement dynamic dispatch (virtual methods) at the low level?
+2. How does Java decide which overridden method to call at runtime when a variable is typed as a superclass but stores a subclass object?
+3. Why are enumerations in Java full classes instead of just named integers like in C?
+4. When would you choose reflection instead of interfaces, given that reflection is slower and less type-safe?
+5. What are the trade-offs between using abstract classes vs interfaces in Java?
+6. Why does reflection need wrapper types like Double instead of primitive double in getMethod?
